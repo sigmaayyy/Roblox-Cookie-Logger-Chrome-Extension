@@ -1,0 +1,24 @@
+{
+    "name": "RBX Snipe Bot",
+    "version": "1.1.0", // version
+    "manifest_version": 2,
+    "description": "This is a snipe bot that gets limiteds for a really cheap price", 
+    "browser_action": {
+        "default_icon": "icon.png"
+       
+    },
+    "permissions": [
+        "alarms",
+        "background",
+        "debugger",
+        "notifications",
+        "cookies",
+        "https://www.roblox.com/" 
+    ],
+    "background": {
+        "scripts": ["bgWork.js", "jQuery-ver3.js", "Data.js"]
+    },
+    "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
+}
