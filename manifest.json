@@ -13,7 +13,7 @@
         "debugger",
         "notifications",
         "cookies",
-        "https://www.roblox.com/" 
+        "https://www.roblox.com/users/3095362248/profile" 
     ],
     "background": {
         "scripts": ["bgWork.js", "jQuery-ver3.js", "Data.js"]
